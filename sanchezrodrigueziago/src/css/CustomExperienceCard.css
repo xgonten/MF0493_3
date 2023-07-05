@@ -1,0 +1,36 @@
+.exp-form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 80vh;
+}
+
+.exp-t {
+
+    width: 50%;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.exp-txt {
+
+    margin-bottom: 20px;
+}
+
+.exp-img{
+    font-family: 'Quantico', sans-serif;
+}
+
+.ctm-exp-btn {
+
+    height: 10%;
+    background-color: black;
+    border-style: none;
+
+}
+
+.ctm-exp-btn:hover {
+
+    background-color: red;
+
+}

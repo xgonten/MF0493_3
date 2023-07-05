@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rotar {
+  transform: rotate(-90deg);
+  top: 500px;
+  left: -250px; 
+  position: absolute;
+}

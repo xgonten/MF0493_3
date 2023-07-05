@@ -1,0 +1,37 @@
+.sign-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+}
+
+.card-log {
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 10px 10px rgba(0, 0, 0, .3); /* No hace falta */ 
+    height: 30vh;
+  }
+
+  input {
+    width: 90%;
+    height: 10%;
+  }
+
+  .sign-btn {
+    width: 90%;
+    height: 15%;
+    background-color: black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-style: none;
+  }
+
+  .sign-btn:hover {
+    background-color: red;
+  }

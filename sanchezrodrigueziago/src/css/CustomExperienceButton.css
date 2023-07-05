@@ -1,0 +1,32 @@
+.exp-btn {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1em;
+    box-shadow: 10px 10px rgba(0, 0, 0, .3); /* No hace falta */ 
+    height: 40vh;
+
+}
+
+.exp-icn {
+
+    width: 70%;
+    height: 75%;
+}
+
+.exp-btn-txt {
+
+    color: white;
+    text-decoration: none !important;
+    font-size: 18px;
+    
+
+}
+
+.exp-link {
+    text-decoration: none;
+}

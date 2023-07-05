@@ -1,0 +1,7 @@
+export * from './HomePage'
+export * from './LoginPage'
+export * from './LogOutPage'
+export * from './ArticlesForm'
+export * from './EditarArticle'
+export * from './InicioPage'
+export * from './ArticlePage'

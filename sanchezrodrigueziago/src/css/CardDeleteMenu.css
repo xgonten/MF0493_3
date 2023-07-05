@@ -1,0 +1,49 @@
+.delmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; 
+    bottom: 0;
+    left: 50%;
+    height: 60px;
+    width: 100%;
+    transform: translateX(-50%);
+    background-color: black;
+    /* visibility: hidden; */
+}
+
+.del-check {
+    display: inline;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.del-bt {
+    padding: 0;
+    width: 250px;
+    height: 60px;
+    font-size: larger;
+    background-color: black;
+    border-style: none;
+    color: white;
+}
+
+.del-bt:hover {
+    background-color: red;
+}
+
+fieldset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+}
+
+.adv {
+    font-size: 25px;
+    height: 60x;
+    width: 500px;
+    text-align: center;
+    color: red;
+}

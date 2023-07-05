@@ -1,0 +1,63 @@
+.card {
+  min-width: 80%;
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://i.pinimg.com/564x/cc/3f/c3/cc3fc348f9bffc1c795c39aa61c76db9.jpg);
+  background-position: center;
+  background-size: cover;
+  justify-content: end;
+  align-items: end;
+  border-radius: 1em;
+  border-style: solid;
+  border-color: black;
+  box-shadow: 10px 10px rgba(0, 0, 0, .3); /* No hace falta */ 
+  height: 40vh;
+}
+
+.card>img{
+  width: 80%;
+  border-radius: 1em;
+}
+
+.card > div {
+  height: 40%;
+  width: -webkit-fill-available;
+  background-color: rgba(0, 0, 0, 30%);
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  overflow: hidden;
+}
+
+.card h2 {
+  text-align: right;
+  color: white;
+  margin: 0;
+}
+
+.card p {
+  display:-webkit-box;
+  text-align: left;
+  color: white;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  margin: 0;
+}
+
+.delete-btn {
+  position: relative;
+  bottom: 35%;
+  right: 2.5%; 
+  height: 40px;
+  width: 40px;
+  background-color: rgb(20, 20, 20);
+}
+
+.delete-btn:hover {
+  background-color: red;
+}
